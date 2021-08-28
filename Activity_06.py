@@ -1,0 +1,9 @@
+list1 = input().split()
+list2 = list1[0:3]
+print("sliced list = ", list2)
+list1[0] = 0
+list2[0] = 0
+list1[-1] = 0
+list2[-1] = 0
+print("replaced list-1 = ", list1)
+print("replaced list-2 = ", list2)
