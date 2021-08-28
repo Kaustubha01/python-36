@@ -1,24 +1,16 @@
 Copy paste the all the commands that you executed on IDLE:
-a=float(273.15)
-b=float(25)
-c=a+b
-print("The sum of %f and %f is %f\n"%(a,b,c))
-x=int(911)
-y=int(314)
-z=x-y
-print("The difference of %d and %d is %d\n"%(x,y,z))
-a1=2020
-a2=17
-a3=a1/a2
-print("%d divided by %d is %f\n"%(a1,a2,a3))
-a4=19
-a5=a1/a4
-print("Quotient of %d divided by %d is %f\n"%(a1,a4,a5))
-a6=2021
-a7=21
-a8=a6%a7
-print("Remainder of %d divided by %d is %f\n"%(a6,a7,a8))
-b1=2
-b2=7
-b3=b1**b2
-print("%d raised to %d is %f\n"%(b1,b2,b3))
+>>> 273.15+25
+29.15
+>>> 911 - 314
+597
+>>>3*19
+57
+>>>2020/17
+118.2352941176471
+>>>2020/19
+106
+>>>2021%21
+5
+>>>2**7
+128
+>>>
