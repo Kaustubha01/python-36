@@ -4,11 +4,13 @@
  return NUM[0],NUM[1],NUM[2]
 
       def compare(a, b, c):
+R=0
 if (b >= a) and (b >= c): 
-return b
+R=b
 elif (a >= b) and (a >= c):
-return a
-else: return c
+R=a
+else: R= c
+ return R
 
       def display(a, b, c, greatest): 
  print('{0} is the greatest number among {1},{2} and {3}'.format(greatest,a,b,c)) 
